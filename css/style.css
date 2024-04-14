@@ -1,6 +1,7 @@
 /* Google Fonts - Poppins */
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap');
-*
+/* Font Awesome */
+@import url('https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/all.min.css');
 {
   margin: 0;
   padding: 0;
@@ -20,10 +21,18 @@ body{
 	color: white !important;
         place-items: normal;
 	font-size: large;
+	line-height: 1.2;
   }
 .container{
     width: auto;
 	margin: 4em;
+}
+.go-back-link {
+    font-size: 24px;
+    color: white;
+    text-decoration: none;
+    line-height: 1;
+    margin-bottom: -100px;
 }
 .head__section img{
     display:block;
