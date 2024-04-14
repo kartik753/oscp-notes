@@ -1,0 +1,50 @@
+/* Google Fonts - Poppins */
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap');
+*
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  list-style: none;
+}
+a{
+    text-decoration: none;
+}
+body{
+	background-image:url('../img/background.jpg');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	display: grid;
+    place-items: center;
+  }
+.container{
+    width: auto;
+	margin: 4em;
+}
+.head__section img{
+    display:block;
+    margin: 0 auto;
+    height: 5rem;
+    width: 5rem;
+    object-fit: cover;
+}
+.head__section p{
+    text-align: center;
+	margin-top: 13px;
+	/*font-size: 1.5em;*/
+    color: white;
+}
+
+.head__section h2{
+    text-align: center;
+	margin-top: 13px;
+	font-size: 1.5em;
+    color: white;
+}
+@media only screen and (max-width: 549px) {
+    .container{
+        width: auto;
+    }
+  }
