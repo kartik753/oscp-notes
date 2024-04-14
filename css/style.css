@@ -17,7 +17,7 @@ body{
 	background-attachment: fixed;
 	background-size: cover;
 	display: grid;
-	color: white;
+	color: white !important;
     place-items: center;
   }
 .container{
