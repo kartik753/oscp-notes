@@ -18,7 +18,8 @@ body{
 	background-size: cover;
 	display: grid;
 	color: white !important;
-    place-items: normal;
+        place-items: normal;
+	font-size: large;
   }
 .container{
     width: auto;
