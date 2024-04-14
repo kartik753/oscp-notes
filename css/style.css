@@ -18,7 +18,7 @@ body{
 	background-size: cover;
 	display: grid;
 	color: white !important;
-    place-items: center;
+    place-items: normal;
   }
 .container{
     width: auto;
